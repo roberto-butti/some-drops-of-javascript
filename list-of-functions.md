@@ -1,0 +1,35 @@
+- [x] 01-00 SYSTEM
+- [x] 01-01 Info from CPU: `os.cpus()`
+- [x] 01-02 Info from Operating System: `os.version()`
+- [x] 01-03 Info from current user: `os.userInfo()`
+- [x] 01-04  Get the amount of free memory in bytes (as integer): `os.freemem()`
+- [x] 01-05 Access to environment variables: `process.env`
+- [x] 01-06 Get the amount of total memory available in bytes (as integer): `os.totalmem()`
+- [x] 01-07 The load average of CPU: `os.loadavg()`
+- [x] 01-08 Network interfaces information: `os.networkInterfaces()`
+- [x] 01-09 Stop the execution with a proper status code: `process.exit()`
+- [x] 01-10 Get temporary directory: `os.tmpdir()`
+- [x] 01-11 Get monotonic time: `performance.now()`
+- [x] 02-00 ARRAY
+- [x] 02-01 Create a string from an array: `join()`
+- [x] 02-02 Check if the array includes a certain value: `includes()`
+- [x] 02-03 Check if a key exists in the array: `in`
+- [x] 02-04 Concat arrays: `concat()`
+- [x] 02-05 Concat arrays via destructuring
+- [x] 02-06 Remove duplicate values in an array via `Set(`)`
+- [x] 02-07 Generate and fill a new array `fill()`
+- [x] 02-08 Filtering elements: `filter()`
+- [x] 02-09 Testing all elements: `every()`
+- [ ] 02-10 Testing at least one element: `some()`
+- [ ] 02-11 Mapping new array: `map()`
+- [ ] 02-12 Reduce array: `reduce()`
+- [ ] 03-00 Variables, constants
+- [ ] 03-01 Get variable type: `typeof`
+- [ ] 03-02 Portable directory separator: `path.sep`
+- [ ] 03-03 Portable end of line: `os.EOL`
+- [ ] 03-04 Gets the properties of the given object: `getOwnPropertyNames()`
+- [ ] 04-00 Functions
+- [ ] 05-00 Files
+- [ ] 05-01 Current directory: `process.cwd()`
+- [ ] 06-00 Strings
+- [ ] 06-01 String includes: `includes()`

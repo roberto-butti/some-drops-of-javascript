@@ -5,21 +5,35 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Some drops of JavaScript',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/roberto-butti/some-drops-of-javascript',
 			},
 			sidebar: [
+
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					label: '📔 Intro',
+					autogenerate: { directory: '00-intro' },
+					collapsed: false
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: '🧑‍💻 System',
+					autogenerate: { directory: '01-system' },
+					collapsed:true
+				},
+				{
+					label: '📚 Array',
+					autogenerate: { directory: '02-array' },
+					collapsed: true
+				},
+				{
+					label: '[ 🧑‍💻 Sources ]',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Markdown', link: 'https://github.com/roberto-butti/some-drops-of-javascript/tree/main/src/content/docs' },
+						{ label: 'Examples', link: 'https://github.com/roberto-butti/some-drops-of-javascript/tree/main/examples' },
+					],
+					collapsed: true
 				},
 			],
 		}),
