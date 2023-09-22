@@ -1,7 +1,7 @@
 # Welcome to Some drops of JavaScript
 
 
-![Some drops of JavaScript](assets/header.png)
+![Some drops of JavaScript](public/header.png)
 
 ## The reason why
 This book collects some useful, unknown, underrated JavaScript functions or stuff discovered, used, and learned during JavaScript daily use.
