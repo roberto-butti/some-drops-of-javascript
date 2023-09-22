@@ -1,51 +1,53 @@
-# Starlight Starter Kit: Basics
+# Welcome to Some drops of JavaScript
 
-```
-npm create astro@latest -- --template starlight
-```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
+![Some drops of JavaScript](assets/header.png)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## The reason why
+This book collects some useful, unknown, underrated JavaScript functions or stuff discovered, used, and learned during JavaScript daily use.
 
-## 🚀 Project Structure
+Using JavaScript frameworks/libraries daily (like React, Vue, Angular), sometimes the perception of the power of the language and the basic functionalities provided by the JavaScript core could be lost.
+I see that usually, I used to look at the framework documentation or look for a package in Npm for the system, array, and string functions instead of using core functionalities provided by the language.
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+While I wrote this  HTML-book, I also wrote some scripts to better understand the behavior of the functions. You can find these examples here: https://github.com/roberto-butti/some-drops-of-javascript in the _examples_ directory.
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   │   └── config.ts
-│   └── env.d.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+### Requirements
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+The code used in this book is tested with **Bun** and **NodeJs version 18 (LTS)**.
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+**Bun** is a JavaScript runtime, package manager, bundler and test runner built from scratch using the Zig programming language. It was designed by Jarred Sumner as a drop-in replacement for Node.js. Bun uses JavaScriptCore as the JavaScript engine, unlike Node.js and Deno, which both use V8. The official website is: https://bun.sh/ .
 
-Static assets, like favicons, can be placed in the `public/` directory.
+**Node.js** is an open-source, cross-platform JavaScript runtime environment, and you can obtain Node.js on the official https://nodejs.org/ website.
 
-## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+### Continuous release
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+I was thinking to print this book, but I think that is not so eco-friendly and a book about development could be improved daily in terms of spellchecking and the content and examples. So, I expect to adopt the same approach in the software with the CI/CD, with a continuous release of the book.
 
-## 👀 Want to learn more?
+Releases:
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+- **W.I.P.** the 1.0.0 version is not yet released: writing... ;
+
+> The book is **Work in Progress**, the list of the functions covered by the book at the moment are listed in [list-of-functions.md](list-of-functions.md) file
+
+So, if you have any feedback, or you want to suggest some corrections, feel free to open an issue here: https://github.com/roberto-butti/some-drops-of-javascript/issues
+
+### Where to find this book
+
+This book is available TBD.
+
+- Markdown files: [content/](content/);
+- Example files: [examples/](examples/);
+
+### Thanks to...
+
+Thanks to all the Open Source community.
+
+### License
+"Some drops of JavaScript" (c) by Roberto Butti
+
+"Some drops of JavaScript" is licensed under a
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+You should have received a copy of the license along with this
+work. If not, see <http://creativecommons.org/licenses/by-nc-sa/4.0/>.
