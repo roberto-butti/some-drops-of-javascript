@@ -16,5 +16,8 @@
   },
   "devDependencies": {
     "bun-types": "^1.0.3"
-  }
+  },
+  "trustedDependencies": [
+    "sharp"
+  ]
 }
