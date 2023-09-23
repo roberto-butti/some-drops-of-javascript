@@ -1,5 +1,5 @@
 ---
-title: "Network interfaces information: `os.networkInterfaces()`"
+title: "Getting the network interfaces information"
 sidebar:
   label: Network interfaces
 ---

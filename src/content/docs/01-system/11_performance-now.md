@@ -1,10 +1,10 @@
 ---
-title: "Get monotonic time: `performance.now()`"
+title: "Tracking the execution time getting the monotonic time"
 sidebar:
   label: Tracking time
 ---
 
-## Get monotonic time: `performance.now()`
+## Getting monotonic time: `performance.now()`
 
 If you have to track execution time or the time spent in a script or a long-running application, you have to keep in mind that while you are executing your script and your logic the date time of the operating system could change because the user adjusts the hour, or the date time is adjusted automatically by the NTP system.
 So if you want to track the millisecond spent executing a logic you need a monotonic time.

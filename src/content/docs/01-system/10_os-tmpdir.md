@@ -1,10 +1,10 @@
 ---
-title: "Get temporary directory: `os.tmpdir()`"
+title: "Getting the temporary directory absolute path"
 sidebar:
   label: Temp directory
 ---
 
-## Get temporary directory: `os.tmpdir()`
+## Getting the temporary directory: `os.tmpdir()`
 
 If you need to store temporary a file in your script, you can save the temporary file in the default operating system temporary directory.
 You can retrieve the current operating system temporary directory via `tmpdir()` function:
