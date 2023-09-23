@@ -1,4 +1,3 @@
-
-console.log('Executing ...')
-process.exit(99)
-console.log('Never executed')
+console.log("Executing ...");
+process.exit(99);
+console.log("Never executed");
