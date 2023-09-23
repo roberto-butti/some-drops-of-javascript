@@ -1,5 +1,7 @@
 ---
 title: "Get temporary directory: `os.tmpdir()`"
+sidebar:
+  label: Temp directory
 ---
 
 ## Get temporary directory: `os.tmpdir()`

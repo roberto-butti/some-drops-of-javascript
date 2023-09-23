@@ -1,5 +1,7 @@
 ---
 title: "The load average of CPU: `os.loadavg()`"
+sidebar:
+  label: CPU load
 ---
 
 ## The load average of CPU: `os.loadavg()`

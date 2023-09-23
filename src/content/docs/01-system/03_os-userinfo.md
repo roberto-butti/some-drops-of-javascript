@@ -1,5 +1,7 @@
 ---
 title: "Info for the current user: `os.userInfo()`"
+sidebar:
+  label: User information
 ---
 
 ## Info for the current user: `os.userInfo()`

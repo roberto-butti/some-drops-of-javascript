@@ -1,5 +1,7 @@
 ---
 title: "Access to environment variables: process.env"
+sidebar:
+  label: Environment Vars
 ---
 
 ## Access to environment variables: process.env

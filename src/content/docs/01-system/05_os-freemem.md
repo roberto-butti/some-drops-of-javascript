@@ -1,5 +1,7 @@
 ---
 title: "Get the amount of free memory in bytes (as integer): `os.freemem()`"
+sidebar:
+  label: Free memory
 ---
 
 ## Get the amount of free memory in bytes (as integer): `os.freemem()`

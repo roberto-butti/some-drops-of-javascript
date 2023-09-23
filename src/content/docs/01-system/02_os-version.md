@@ -1,5 +1,7 @@
 ---
 title: "Info from Operating System: `os.version()`"
+sidebar:
+  label: OS information
 ---
 
 ## Info from Operating System: `os.version()`

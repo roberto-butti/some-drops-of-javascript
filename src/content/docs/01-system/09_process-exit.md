@@ -1,5 +1,7 @@
 ---
 title: "Stop the script execution: `process.exit()`"
+sidebar:
+  label: Stop execution
 ---
 
 ## Stop the script execution: `process.exit()`

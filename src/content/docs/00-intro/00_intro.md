@@ -1,6 +1,8 @@
 ---
 title: About this project
 description: Learn more about the project I’m working on.
+sidebar:
+  label: About
 ---
 
 # Welcome to Some drops of JavaScript

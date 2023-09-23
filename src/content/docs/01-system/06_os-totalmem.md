@@ -1,5 +1,7 @@
 ---
 title: "Get the amount of total memory available in bytes (as integer): `os.totalmem()`"
+sidebar:
+  label: Available memory
 ---
 
 ## Get the amount of total memory available in bytes (as integer): os.totalmem()

@@ -1,5 +1,7 @@
 ---
 title: "Get monotonic time: `performance.now()`"
+sidebar:
+  label: Tracking time
 ---
 
 ## Get monotonic time: `performance.now()`
