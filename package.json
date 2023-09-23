@@ -12,7 +12,7 @@
   "dependencies": {
     "@astrojs/starlight": "^0.10.1",
     "astro": "^3.0.6",
-    "sharp": "^0.32.5"
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "bun-types": "^1.0.3"
