@@ -1,5 +1,7 @@
 ---
 title: "Generate and fill a new array `fill()`"
+sidebar:
+  label: Filling an array
 ---
 
 ## Generate and fill a new array `fill()`

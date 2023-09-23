@@ -1,5 +1,7 @@
 ---
 title: "Filtering elements: `filter()`"
+sidebar:
+  label: Filtering elements
 ---
 
 ## Filtering elements: `filter()`

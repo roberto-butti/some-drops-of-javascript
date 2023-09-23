@@ -1,5 +1,7 @@
 ---
 title: "Concat arrays via destructuring"
+sidebar:
+  label: Concatenating arrays via destructuring
 ---
 
 ## Concat arrays via destructuring

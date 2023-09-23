@@ -1,5 +1,7 @@
 ---
 title: "Testing at least one element: `some()`"
+sidebar:
+  label: Checking at least one element
 ---
 
 ## Testing at least one element: `some()`

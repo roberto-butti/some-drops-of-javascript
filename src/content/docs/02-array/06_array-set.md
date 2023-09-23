@@ -1,5 +1,7 @@
 ---
 title: "Remove duplicate values in an array via `Set()`"
+sidebar:
+  label: Removing duplicates
 ---
 
 ## Remove duplicate values in an array via `Set()`

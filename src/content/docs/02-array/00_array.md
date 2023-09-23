@@ -1,6 +1,8 @@
 ---
 title: "Array"
 description: The chapter will cover functions about "array" functionalities
+sidebar:
+  label: Introduction
 ---
 
 # Array

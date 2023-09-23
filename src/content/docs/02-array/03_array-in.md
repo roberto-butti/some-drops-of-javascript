@@ -1,5 +1,7 @@
 ---
 title: "Check if a property exists in the object or array: `in`"
+sidebar:
+  label: Checking a property
 ---
 
 ## Check if a property exists in the object or array: `in`

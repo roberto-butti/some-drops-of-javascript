@@ -1,5 +1,7 @@
 ---
 title: "Create a string from an array: `join()`"
+sidebar:
+  label: From array to string
 ---
 
 ## Create a string from an array: `join()`

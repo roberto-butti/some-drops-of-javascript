@@ -1,5 +1,7 @@
 ---
 title: "Testing all elements: `every()`"
+sidebar:
+  label: Checking all the elements
 ---
 
 ## Testing all elements: `every()`

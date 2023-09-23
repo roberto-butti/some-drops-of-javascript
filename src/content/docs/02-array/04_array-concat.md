@@ -1,5 +1,7 @@
 ---
 title: "Concatenate two (or more) arrays: `concat()`"
+sidebar:
+  label: Concatenating arrays
 ---
 
 ## Concatenate two (or more) arrays: `concat()`

@@ -1,5 +1,7 @@
 ---
 title: "Check if the array includes a certain value: `includes()`"
+sidebar:
+  label: Checking an item
 ---
 
 ## Check if the array includes a certain value: `includes()`
