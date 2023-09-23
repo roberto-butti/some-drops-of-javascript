@@ -3,14 +3,17 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://some-drops-of-javascript.vercel.app/',
 	integrations: [
 		starlight({
 			title: 'Some drops of JavaScript',
+			editLink: {
+				baseUrl: 'https://github.com/roberto-butti/some-drops-of-javascript/edit/main',
+			},
 			social: {
 				github: 'https://github.com/roberto-butti/some-drops-of-javascript',
 			},
 			sidebar: [
-
 				{
 					label: '📔 Intro',
 					autogenerate: { directory: '00-intro' },
