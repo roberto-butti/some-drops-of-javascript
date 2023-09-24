@@ -1,13 +1,20 @@
 ---
 title: Hacktoberfest
-description: We love Hacktoberfest.
+description: We love Hacktoberfest and we are excited to invite you to join our Hacktoberfest celebration by contributing to our open-source book project.
 sidebar:
   label: Hacktoberfest 2023
+banner:
+  content: |
+    The open-source eBook,
+    <a href="https://github.com/roberto-butti/some-drops-of-javascript">feel free to contribute adding or reviewing content</a>
+
 ---
 
 Hello amazing contributors! 👋
 
 We are excited to invite you to join our Hacktoberfest celebration by contributing to our open-source book project. We welcome contributors with various skills and interests, so whether you're a JavaScript expert, a grammar enthusiast, a design aficionado, or just someone with a passion for learning and sharing knowledge, there's a place for you in our community.
+
+![Some drops of JavaScript joins Hacktoberfest](../../../assets/header-hacktoberfest.png)
 
 ## Ways to Contribute
 
