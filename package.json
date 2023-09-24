@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "format-examples": "npx prettier ./examples/ --write"
+    "format-examples": "npx prettier ./examples/ --write",
+    "format-examples-bun": "bunx prettier ./examples/ --write"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.10.1",

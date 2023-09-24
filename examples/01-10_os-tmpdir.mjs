@@ -1,3 +1,3 @@
-import { tmpdir } from "os";
+import { tmpdir } from 'os'
 
-console.log("Temporary directory: %s", tmpdir());
+console.log('Temporary directory: %s', tmpdir())
