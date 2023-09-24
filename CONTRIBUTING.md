@@ -14,25 +14,28 @@ The functions are grouped into topics:
 - File
 - Extra bonus chapter where I'm collecting some nice cheatsheet
 
-Each function is explained with the description, and examples in markdown files in the `content` directory.
+Each function is explained with the description, and examples in markdown files in the `src/content/docs` directory.
 
 ## The file name convention
-In the `src/content/docs` directory, we have all the Markdown files.
-You can find the folders for the topic.
+We have all the Markdown files in the `src/content/docs` directory where you can find the folders for each topic (`00-intro`, `01-system`, `02-array`, etc.
 Each topic ( Intro, System, Array) has a specific folder with the format
+
 - 2 digits (00 , 01) as topic identifier (progressive number)
-- A separator `-`
+- A "dash" separator `-`
 - A slug for the topic (intro, system, array)
+
 Following the format above you can have folders like: `00-intro`, `01-system`, `02-array`.
-Each folder contains files. Each file represent a JavaScript function.
+Each folder contains files. Each file shows a JavaScript function.
 The file name has the format:
+
 - 2 digits (00 , 01) as function identifier (progressive number);
-- A separator `_`;
-- A subtopic slug (by default is the same of the topic) for example `system`, `os`, `process` etc;
-- A separator `-`;
+- An "underscore" separator `_`;
+- A subtopic slug (by default is the same of the topic), for example `system`, `os`, `process` etc;
+- A "dash" separator `-`;
 - A slug for the function (cpus, version, userinfo);
-- the extension (md or mdx).
-Following the format described above you can have in the folder `01-system` files with name like `01_os-cpus.md`, `02_os-version.md` etc
+- The extension (md or mdx).
+
+Following the format described above, you can have in the folder `01-system` files with names like `01_os-cpus.md`, `02_os-version.md` etc
 
 For example, for the file `01-system/02_os-version.md`:
 - `01`: (the first group of digits) is the progressive number for the `system` topic;
@@ -42,6 +45,23 @@ For example, for the file `01-system/02_os-version.md`:
 - `version`: the function explained
 - `md`: the extension
 
+## Running locally the project
+The rendering part of all the Markdown files is managed via Astro3 + Starlight theme and Bun.
+If you want to read and browse the HTML eBook and see your changes in realtime when you are working on markdown files in the root directory of the cloned repository (where you have the `package.json`, `bun.lockb` files):
+
+- install the packages via `bun install`;
+- run the local server via `bun run dev`
+
+If you want to build the HTML files, you can run the following command:
+~~~
+bun run build
+~~~
+
+If you want to see the preview of the built files you can run the following command:
+
+~~~
+bun run preview
+~~~
 
 ## Submit ideas or feature requests
 
