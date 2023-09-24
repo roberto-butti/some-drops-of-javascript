@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format-examples": "npx prettier ./examples/ --write"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.10.1",
