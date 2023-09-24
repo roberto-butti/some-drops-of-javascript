@@ -20,7 +20,7 @@
 - [x] 02-07 Generate and fill a new array `fill()`
 - [x] 02-08 Filtering elements: `filter()`
 - [x] 02-09 Testing all elements: `every()`
-- [ ] 02-10 Testing at least one element: `some()`
+- [x] 02-10 Testing at least one element: `some()`
 - [ ] 02-11 Mapping new array: `map()`
 - [ ] 02-12 Reduce array: `reduce()`
 - [ ] 03-00 Variables, constants
