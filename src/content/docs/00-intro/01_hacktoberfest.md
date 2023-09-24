@@ -1,8 +1,12 @@
 ---
 title: Hacktoberfest
 description: We love Hacktoberfest and we are excited to invite you to join our Hacktoberfest celebration by contributing to our open-source book project.
+
 sidebar:
   label: Hacktoberfest 2023
+  badge:
+    text: New
+    variant: tip
 banner:
   content: |
     The open-source eBook,
