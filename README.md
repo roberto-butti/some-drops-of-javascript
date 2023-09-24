@@ -11,6 +11,8 @@ I see that usually, I used to look at the framework documentation or look for a 
 
 While I wrote this  HTML-book, I also wrote some scripts to better understand the behavior of the functions. You can find these examples here: https://github.com/roberto-butti/some-drops-of-javascript in the _examples_ directory.
 
+> We are excited to invite you to join our Hacktoberfest celebration by contributing to the open-source book project. More [info here](HACKTOBERFEST.md)
+
 ### Requirements
 
 The code used in this book is tested with **Bun** and **NodeJs version 18 (LTS)**.
