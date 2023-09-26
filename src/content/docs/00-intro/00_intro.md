@@ -1,6 +1,6 @@
 ---
-title: About this project
-description: Learn more about the project I’m working on.
+title: Some drops of JavaScript
+description: This HTML eBook collects some useful, unknown, underrated JavaScript functions or stuff discovered, used, and learned during JavaScript daily use.
 sidebar:
   label: About the eBook
 ---
@@ -10,7 +10,7 @@ sidebar:
 ## The reason why
 This book collects some useful, unknown, underrated JavaScript functions or stuff discovered, used, and learned during JavaScript daily use.
 
-Using JavaScript frameworks/libraries daily (like React, Vue, Angular), sometimes the perception of the power of the language and the basic functionalities provided by the JavaScript core could be lost.
+Using JavaScript frameworks/libraries daily (like React, Vue, Angular, Svelte), sometimes the perception of the power of the language and the basic functionalities provided by the JavaScript core could be lost.
 I see that usually, I used to look at the framework documentation or look for a package in Npm for the system, array, and string functions instead of using core functionalities provided by the language.
 
 While I wrote this  HTML-book, I also wrote some scripts to better understand the behavior of the functions. You can find these examples here: https://github.com/roberto-butti/some-drops-of-javascript in the _examples_ directory.
