@@ -7,6 +7,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Some drops of JavaScript',
+      customCss: [
+        './src/styles/custom.css'
+      ],
 			editLink: {
 				baseUrl: 'https://github.com/roberto-butti/some-drops-of-javascript/edit/main',
 			},
