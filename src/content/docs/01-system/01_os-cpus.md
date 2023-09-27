@@ -1,5 +1,5 @@
 ---
-title: "Info from CPU: `os.cpus()`"
+title: "CPUs information"
 sidebar:
   label: CPUs information
 ---
