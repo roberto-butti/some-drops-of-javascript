@@ -1,8 +1,10 @@
 ---
-title: "Info for the current user: `os.userInfo()`"
+title: "Getting user information"
 sidebar:
   label: User information
 ---
+When you launch a Node script, you will launch it with a specific operating system user. The user used for launcing the script determines the permission of the script.
+If you need to retrieve the information related to the current user you can use `userInfo()` function.
 
 ## Info for the current user: `os.userInfo()`
 The `os` module has the `userInfo`()` method to return information on the current system user.
