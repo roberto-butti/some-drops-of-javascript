@@ -19,8 +19,9 @@ h2 {
 }
 code {
   font-family: 'JetBrains Mono', monospace;
-  margin: 0 -0.4em;
+  margin: 0 0;
   padding: 0.1em 0.4em;
+  line-height: normal;
   border-radius: 0.8em 0.3em;
   background: transparent;
   background-image: linear-gradient(to right,
