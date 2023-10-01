@@ -12,5 +12,6 @@ const  user  = {
 name: 'John',
 age: 30,
 }
+
 console.log(Object.values(user)); // ['John', 30]
 ```
