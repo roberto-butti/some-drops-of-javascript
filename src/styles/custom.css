@@ -1,5 +1,5 @@
 /* Dark mode colors. */
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 p {
   font-family: Lora;
@@ -19,6 +19,7 @@ h2 {
 }
 code {
   font-family: 'JetBrains Mono', monospace;
+
   margin: 0 0;
   padding: 0.1em 0.4em;
   line-height: normal;
