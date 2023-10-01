@@ -1,7 +1,7 @@
 ---
 title: 'Getting all the Object properties/attributes: `key()`'
 sidebar:
-  label: key()
+  label: Object keys
 ---
 
 ## Getting all the properties of an object using Object.keys()
