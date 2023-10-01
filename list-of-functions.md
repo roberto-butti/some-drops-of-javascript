@@ -26,7 +26,7 @@
 - [ ] 02-12 Reduce array: `reduce()`
 
 - [ ] 03-00 Variables, constants, Object
-- [ ] 03-01 Get variable type: `typeof`
+- [x] 03-01 Get variable type: `typeof`
 - [ ] 03-02 Portable directory separator: `path.sep`
 - [ ] 03-03 Portable end of line: `os.EOL`
 - [ ] 03-04 Gets the properties of the given object: `getOwnPropertyNames()`
