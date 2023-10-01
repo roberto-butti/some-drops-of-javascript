@@ -10,6 +10,7 @@
 - [x] 01-09 Stop the execution with a proper status code: `process.exit()`
 - [x] 01-10 Get temporary directory: `os.tmpdir()`
 - [x] 01-11 Get monotonic time: `performance.now()`
+
 - [x] 02-00 ARRAY
 - [x] 02-01 Create a string from an array: `join()`
 - [x] 02-02 Check if the array includes a certain value: `includes()`
@@ -23,11 +24,20 @@
 - [x] 02-10 Testing at least one element: `some()`
 - [ ] 02-11 Mapping new array: `map()`
 - [ ] 02-12 Reduce array: `reduce()`
-- [ ] 03-00 Variables, constants
+
+- [ ] 03-00 Variables, constants, Object
 - [ ] 03-01 Get variable type: `typeof`
 - [ ] 03-02 Portable directory separator: `path.sep`
 - [ ] 03-03 Portable end of line: `os.EOL`
 - [ ] 03-04 Gets the properties of the given object: `getOwnPropertyNames()`
+- [ ] 03-05 Getting all the Object properties/attributes: `key()`
+- [ ] 03-06 Object values: `values()`
+- [ ] 03-07 Object entries: `entries()`
+- [ ] 03-08 Object freeze: `freeze()`
+- [ ] 03-09 Object seal: `seal()`
+- [ ] 03-10 Object is frozen: `isFrozen()`
+- [ ] 03-11 Object is sealed: `isSealed()`
+
 - [ ] 04-00 Functions
 - [ ] 05-00 Files
 - [ ] 05-01 Current directory: `process.cwd()`
