@@ -32,6 +32,11 @@ export default defineConfig({
 					autogenerate: { directory: '02-array' },
 					collapsed: true
 				},
+        {
+          label: '🧑‍🎨 Vars, Objects, Operators',
+          autogenerate: { directory: '03-var' },
+          collapsed: true
+        },
 				{
 					label: '[ 🧑‍💻 Sources ]',
 					items: [
