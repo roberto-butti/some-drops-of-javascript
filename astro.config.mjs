@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://some-drops-of-javascript.vercel.app/',
+	site: 'https://drops-of-javascript.hi-folks.dev/',
 	integrations: [
 		starlight({
 			title: 'Some drops of JavaScript',
