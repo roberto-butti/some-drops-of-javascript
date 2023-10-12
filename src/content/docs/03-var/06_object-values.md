@@ -4,6 +4,7 @@ sidebar:
   label: Object values
 ---
 
+
 ## Getting all the values of an object using Object.values()
 
 The `Object.values()` method gives you an array with all the values linked to an object's properties.
@@ -43,4 +44,5 @@ function findBooksByAuthor(author) {
 
 const book = findBooksByAuthor('Harper Lee'); // Finding books by "J.R.R. Tolkien"
 console.log('Harper Lee:', book);
+
 ```
