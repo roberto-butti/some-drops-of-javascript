@@ -1,11 +1,11 @@
 ---
-title: 'Object values: `values()`'
+title: 'Getting all the object values'
 sidebar:
-  label: Object values
+  label: The object values
 ---
 
 
-## Getting all the values of an object using Object.values()
+## Getting all the values of an object using `Object.values()`
 
 The `Object.values()` method gives you an array with all the values linked to an object's properties.
 
@@ -36,13 +36,13 @@ const library = {
   },
 };
 
-const libraryValues = Object.values(library); //  [book1, book2]
+const libraryValues = Object.values(library);
 
 function findBooksByAuthor(author) {
   return libraryValues.filter((book) => book.author === author);
 }
-
-const book = findBooksByAuthor('Harper Lee'); // Finding books by "J.R.R. Tolkien"
-console.log('Harper Lee:', book);
+const author = 'Harper Lee';
+const book = findBooksByAuthor(author); // Finding books by "Harper Lee"
+console.log(author, book);
 
 ```

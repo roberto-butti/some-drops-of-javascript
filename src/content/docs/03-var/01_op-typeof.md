@@ -1,10 +1,10 @@
 ---
-title: 'Get type of a variable `typeof`'
+title: Getting the type of a variable
 sidebar:
-  label: typeof
+  label: Determine the type of a variable
 ---
 
-## Get the type of a variable using `typeof`
+## Getting the type of a variable using `typeof`
 
 The `typeof` operator returns a string indicating the type of the operand's value.
 

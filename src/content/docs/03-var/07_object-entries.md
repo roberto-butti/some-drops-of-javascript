@@ -1,11 +1,12 @@
 ---
-title: 'Object entries: `entries()`'
+title: 'Getting all the object entries'
 sidebar:
-  label: Object entries
+  label: The object entries
 ---
 
-## Getting key-value pairs of an object using Object.entries()
-The Object.entries() method returns an array of key-value pairs for each element in the object.
+## Getting key-value pairs of an object using `Object.entries()`
+
+The `Object.entries()` method returns an array of key-value pairs for each element in the object.
 
 ```js
 const user = {
@@ -16,11 +17,11 @@ console.log(Object.entries(user)); // [['name', 'John'], ['age', 30]]
 ```
 
 ## Usecases
-- If you want to determine the number of key-value pairs in an object, you can use the `Object.entries()`method. 
+- If you want to determine the number of key-value pairs in an object, you can use the `Object.entries()` method.
 ```js
 console.log(Object.entries(user).length); // 2
 ```
-- If you want to get the `keys` of an object then you can use the `Object.entries()`method.
+- If you want to get the keys of an object then you can use the `Object.entries()`method.
 ```js
 console.log(Object.entries(user).map(item => item[0])); // ['name', 'age']
 ```
