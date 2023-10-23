@@ -21,7 +21,7 @@ If you want to check if the value is included starting from a specific index you
 ```javascript
 const elements = ['kiwi', 'strawberry', 'lemon']
 
-console.log(elements.includes('strawberry'), 2)
+console.log(elements.includes('strawberry', 2))
 // Does the array starting from index 2, include the 'strawberry'?
 // expected output: false
 ```
