@@ -53,7 +53,7 @@ If you want to fill/replace the last element you can use the negative index:
 const array4 = ['a', 'b', 'c', 'b', 'd', 'e', 'a']
 array4.fill(0, -1) // last element
 console.dir(array4)
-// [ 'a', 0, 0, 'b', 'd', 'e', 'a' ]
+// [ 'a', 'b', 'c', 'b', 'd', 'e', 0 ]
 array4.fill(0, -2) // last 2 elements
 console.dir(array4)
 // [ 'a', 'b', 'c', 'b', 'd', 0, 0 ]
