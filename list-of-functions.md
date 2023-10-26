@@ -23,7 +23,7 @@
 - [x] 02-09 Testing all elements: `every()`
 - [x] 02-10 Testing at least one element: `some()`
 - [x] 02-11 Mapping new array: `map()`
-- [ ] 02-12 Reduce array: `reduce()`
+- [x] 02-12 Reduce array: `reduce()`
 
 - [ ] 03-00 Variables, constants, Object
 - [x] 03-01 Get variable type: `typeof`
