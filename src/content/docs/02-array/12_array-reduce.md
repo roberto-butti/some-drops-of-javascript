@@ -23,10 +23,9 @@ callbackFn(accumulator, currentValue, currentIndex, array)
   &emsp;&emsp;`array`: (Optional) The array reduce() was called upon.<br/><br/>
 `initialValue`: (Optional) The initial value for the accumulator. If not provided, the first element of the array is used as the initial value.
 
-### Example
+### Examples
 
-Let's use reduce() to find the sum of all elements in an array:
-
+<b>Let's use reduce() to find the sum of all elements in an array:</b>
 ```js
 const numbers = [1, 2, 3, 4, 5]
 
@@ -42,4 +41,16 @@ const sumWithoutInitialValue = numbers.reduce((acc, curr) => {
 
 console.log('SumWithInitialValue:', sumWithInitialValue)
 console.log('SumWithoutInitialValue:', sumWithoutInitialValue)
+```
+<b>Counting the number of occurrences of elements in an array using reduce():</b>
+```js
+const fruits = ['apple', 'banana', 'orange', 'apple', 'banana', 'apple']
+
+const fruitCounter = fruits.reduce((accumulator, currentFruit) => {
+  accumulator[currentFruit] = (accumulator[currentFruit] || 0) + 1
+  return accumulator
+}, {})
+
+console.log('Occurrences:', fruitCounter)
+// Output: Occurrences: { apple: 3, banana: 2, orange: 1 }
 ```
