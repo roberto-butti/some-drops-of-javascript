@@ -6,7 +6,7 @@ sidebar:
 
 ## Check if the array includes a certain value: `includes()`
 
-If you want to check if the array includes a specific value, you can use `include()` method. The first mandatory input argument of `include()` method is the value of the element you want to check.
+If you want to check if the array includes a specific value, you can use `includes()` method. The first mandatory input argument of `includes()` method is the value of the element you want to check.
 
 ```javascritpt
 const elements = ['kiwi', 'strawberry', 'lemon']
