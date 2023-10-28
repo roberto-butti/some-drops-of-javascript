@@ -39,7 +39,7 @@
 - [ ] 03-11 Object is sealed: `isSealed()`
 
 - [ ] 04-00 Functions
-- [ ] 05-00 Files
-- [ ] 05-01 Current directory: `process.cwd()`
-- [ ] 06-00 Strings
-- [ ] 06-01 String includes: `includes()`
+- [ ] 05-00 Strings
+- [ ] 05-03 String includes: `includes()`
+- [ ] 06-00 Files
+- [ ] 06-01 Current directory: `process.cwd()`
