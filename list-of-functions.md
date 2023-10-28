@@ -28,7 +28,7 @@
 - [ ] 03-00 Variables, constants, Object
 - [x] 03-01 Get variable type: `typeof`
 - [x] 03-02 Portable directory separator: `path.sep`
-- [ ] 03-03 Portable end of line: `os.EOL`
+- [x] 03-03 Portable end of line: `os.EOL`
 - [ ] 03-04 Gets the properties of the given object: `getOwnPropertyNames()`
 - [ ] 03-05 Getting all the Object properties/attributes: `key()`
 - [ ] 03-06 Object values: `values()`
