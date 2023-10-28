@@ -1,16 +1,16 @@
 /* Dark mode colors. */
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 p {
-  font-family: Lora;
+  font-family: Montserrat;
   font-size: larger;
 }
 h1 {
-  font-family: Lora;
+  font-family: Montserrat;
 
 }
 h2 {
-  font-family: Lora;
+  font-family: Montserrat;
 
 }
 .line {
