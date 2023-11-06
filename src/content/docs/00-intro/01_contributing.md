@@ -1,9 +1,9 @@
 ---
-title: Hacktoberfest
-description: We love Hacktoberfest and we are excited to invite you to join our Hacktoberfest celebration by contributing to our open-source book project.
+title: The Open Source eBook
+description: We are excited to invite you to join our repository and contribute to the open-source book project. We welcome contributors with various skills and interests, so whether you're a JavaScript expert, a grammar enthusiast, a design aficionado, or just someone with a passion for learning and sharing knowledge, there's a place for you in our open-source book project.
 
 sidebar:
-  label: Hacktoberfest 2023
+  label: How to contribute
   badge:
     text: New
     variant: tip
@@ -16,9 +16,8 @@ banner:
 
 Hello amazing contributors! 👋
 
-We are excited to invite you to join our Hacktoberfest celebration by contributing to our open-source book project. We welcome contributors with various skills and interests, so whether you're a JavaScript expert, a grammar enthusiast, a design aficionado, or just someone with a passion for learning and sharing knowledge, there's a place for you in our community.
+We are excited to invite you to join our [repository](https://github.com/roberto-butti/some-drops-of-javascript) and contribute to the open-source book project. We welcome contributors with various skills and interests, so whether you're a JavaScript expert, a grammar enthusiast, a design aficionado, or just someone with a passion for learning and sharing knowledge, there's a place for you in our open-source book project.
 
-![Some drops of JavaScript joins Hacktoberfest](../../../assets/header-hacktoberfest.png)
 
 ## Ways to Contribute
 
@@ -45,10 +44,14 @@ For more detailed instructions, please check our [Contribution Guidelines](https
 
 ## Join the Conversation
 
-Have questions or want to discuss your contributions? Join us on the [repository issue section](https://github.com/roberto-butti/some-drops-of-javascript/issues), where you can create issues but also create suggestions, feature requests.
+Have questions or want to discuss your contributions? Join us in the [repository](https://github.com/roberto-butti/some-drops-of-javascript/issues) issue section](https://github.com/roberto-butti/some-drops-of-javascript/issues), where you can create issues but also create suggestions, and feature requests.
 
-## Say Thank You!
+## Thank You!
 
 We deeply appreciate your willingness to contribute to the open-source book "Some drops of JavaScript". Your efforts make a significant impact on the JavaScript community, and we're grateful for your support.
 
-Happy Hacking! 🚀
+:::tip[Thank you to all the contributors]
+I would like to say a special thank you to all the [contributors](https://github.com/roberto-butti/some-drops-of-javascript/graphs/contributors).
+:::
+
+Thank you! 🚀
