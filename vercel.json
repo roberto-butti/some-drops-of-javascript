@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/00-intro/01_hacktoberfest/",
+      "destination": "/00-intro/01_contributing/",
+      "permanent": true
+    }
+  ]
+}
