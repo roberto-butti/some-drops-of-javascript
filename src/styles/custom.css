@@ -1,18 +1,13 @@
 /* Dark mode colors. */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
-p {
+body {
   font-family: Montserrat;
-  font-size: larger;
+  font-size: large;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-h1 {
-  font-family: Montserrat;
 
-}
-h2 {
-  font-family: Montserrat;
-
-}
 .line {
   font-family: 'JetBrains Mono', monospace;
   font-size: larger;
