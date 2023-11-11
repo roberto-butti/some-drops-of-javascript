@@ -25,8 +25,6 @@ The `includes()` method returns a boolean value:
 
 ### Example
 
-Syntax:
-
 ```javascript
 const str = 'Hello, world!';
 const isWorldPresent = str.includes('world');
