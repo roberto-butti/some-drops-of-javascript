@@ -70,6 +70,6 @@ console.log(slicedString);
 // Output: "wor"
 ```
 
-In the example above, The `slice()` method extracts the portion of the string starting from the 6th character from the end to the 1st character from the end (exclusive). The extracted substring, `'wor'`, is stored in the variable slicedString.
+In the example above, The `slice()` method extracts the portion of the string starting from the 6th character from the end to the 3rd character from the end (exclusive). The extracted substring, `'wor'`, is stored in the variable slicedString.
 
 By using the `String.slice()` method, you can efficiently extract substrings from a given string based on the specified indices, noting that the character at the end index is not included in the returned string.
