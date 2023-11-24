@@ -1,9 +1,9 @@
 - [x] 01-00 SYSTEM
 - [x] 01-01 Info from CPU: `os.cpus()`
-- [x] 01-02 Info from Operating System: `os.version()`
+- [x] 01-02 Info from Operating System: `os.version()` and `os.platform()`
 - [x] 01-03 Info from current user: `os.userInfo()`
-- [x] 01-04 Get the amount of free memory in bytes (as integer): `os.freemem()`
-- [x] 01-05 Access to environment variables: `process.env`
+- [x] 01-04 Access to environment variables: `process.env`
+- [x] 01-05 Get the amount of free memory in bytes (as integer): `os.freemem()`
 - [x] 01-06 Get the amount of total memory available in bytes (as integer): `os.totalmem()`
 - [x] 01-07 The load average of CPU: `os.loadavg()`
 - [x] 01-08 Network interfaces information: `os.networkInterfaces()`
