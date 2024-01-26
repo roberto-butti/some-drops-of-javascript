@@ -10,6 +10,22 @@ export default defineConfig({
       customCss: [
         './src/styles/custom.css'
       ],
+			head: [
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:image',
+						content: 'https://raw.githubusercontent.com/roberto-butti/some-drops-of-javascript/main/public/header.png',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'twitter:image',
+						content: 'https://raw.githubusercontent.com/roberto-butti/some-drops-of-javascript/main/public/header.png',
+					},
+				},
+			],
 			editLink: {
 				baseUrl: 'https://github.com/roberto-butti/some-drops-of-javascript/edit/main',
 			},
