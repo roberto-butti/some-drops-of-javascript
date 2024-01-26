@@ -1,6 +1,6 @@
 ---
 title: What is JavaScript?
-description: JavaScript is a language that requires a runtime to be executed.
+description: JavaScript the language, the engine, and the runtime.
 sidebar:
   label: What is JavaScript?
 ---
