@@ -6,18 +6,42 @@ banner:
   content: |
     The open-source eBook,
     <a href="https://github.com/roberto-butti/some-drops-of-javascript">feel free to contribute adding or reviewing content</a>
-hero:
-  tagline: The book collects some useful, unknown, underrated JavaScript functions discovered and learned while using JavaScript daily.
-  image:
-    file: ../../assets/some-drops-of-javascript-cover-square.png
-  actions:
-    - text: Read the eBook
-      link: /00-intro/00_intro
-      icon: right-arrow
-      variant: primary
-    - text: Sources on GitHub
-      link: https://github.com/roberto-butti/some-drops-of-javascript
-      icon: external
 ---
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/large.svg)](https://starlight.astro.build)
+import { CardGrid, Card } from '@astrojs/starlight/components';
+import AboutBlock from '../../components/about-block.astro'
+import Hero from '../../components/hero.astro'
+
+<Hero />
+
+<CardGrid >
+	<Card title="Open Source" icon="open-book">
+		This book is open source, meaning that both its content and the tools used for rendering the website are accessible. You can find it in [the GitHub repository](https://github.com/roberto-butti/some-drops-of-javascript).
+	</Card>
+	<Card title="Learn JavaScript functions" icon="rocket">
+		Start reading the e-book for free and start learning the JavaScript language.
+    [Read the book](/00-intro/00_intro)
+	</Card>
+	<Card title="Collaborate" icon="document">
+		We deeply appreciate your willingness to contribute to the open-source book “Some Drops of JavaScript”. Your efforts make a significant impact on the JavaScript community, and we're grateful for your support.
+    [Collaborate](/00-intro/01_contributing/)
+	</Card>
+	<Card title="Join the Conversation" icon="puzzle">
+		Have questions or want to discuss your contributions? Join us on the [repository issue section](https://github.com/roberto-butti/some-drops-of-javascript/issues), where you can create issues but also create suggestions, and feature requests.
+	</Card>
+</CardGrid>
+
+<AboutBlock title="This book is about JavaScript">
+JavaScript is a versatile scripting language
+with a wide range of applications beyond
+its primary use in web development.
+<br/>
+Overall, JavaScript's versatility and wide adoption make it a powerful tool for a variety of applications beyond web development, including command-line tools, desktop and mobile applications, and even game development.
+<br/>
+[Learn about JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+</AboutBlock>
+
+<p align="center">
+<a href="https://starlight.astro.build"><img src="https://astro.badg.es/v2/built-with-starlight/small.svg" alt="Built with Starlight" width="224" height="32" /></a>
+</p>

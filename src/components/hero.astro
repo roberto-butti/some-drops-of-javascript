@@ -1,0 +1,89 @@
+---
+interface Props {
+  title: string
+}
+
+const { title } = Astro.props
+---
+
+<div class="big-image">
+  <div class="overlay">
+    <p>"<b>Some drops of JavaScript</b>" is an open source e-book about JavaScript functions.</p>
+    <div class="sl-flex actions">
+      <a class="sl-flex action primary" href="/00-intro/00_intro">
+        Read the Book!</a
+      >
+    </div>
+  </div>
+</div>
+
+<style>
+  .big-image {
+    height: 400px;
+    width: 100%;
+
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('/hero.webp');
+    border-radius: 30px;
+  }
+
+  .overlay {
+    height: 400px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 30px;
+  }
+
+  .overlay h1 {
+    font-size: 65px;
+    letter-spacing: 0px;
+    margin: 0 0 5px;
+    color: white;
+  }
+
+  .overlay p {
+    margin: 0;
+    padding: 10px 50px 10px 50px;
+    font-size: 28px;
+  }
+
+  .action {
+    gap: 0.5em;
+    align-items: center;
+    border-radius: 999rem;
+    padding: 1rem 1.125rem;
+    color: var(--sl-color-white);
+    line-height: 1.1875;
+    text-decoration: none;
+    font-size: var(--sl-text-sm);
+  }
+  .action.primary {
+    background: var(--sl-color-text-accent);
+    color: var(--sl-color-black);
+  }
+  .action.secondary {
+    border: 1px solid;
+  }
+  .action.minimal {
+    padding-inline: 0;
+  }
+
+  @media (min-width: 50rem) {
+    .action {
+      font-size: var(--sl-text-base);
+      padding: 1rem 1.25rem;
+    }
+  }
+</style>
