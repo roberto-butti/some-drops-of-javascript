@@ -12,8 +12,8 @@
     "format-examples-bun": "bunx prettier ./examples/ --write"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.16.0",
-    "astro": "^4.2.5",
+    "@astrojs/starlight": "^0.21.1",
+    "astro": "^4.4.15",
     "sharp": "^0.33.1"
   },
   "devDependencies": {
