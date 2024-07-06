@@ -1,10 +1,10 @@
 ---
-title: 'Getting the path seperator'
+title: 'Getting the path separator'
 sidebar:
-  label: Path Seperator
+  label: Path Separator
 ---
 
-## Path seperator: `sep`
+## Path separator: `sep`
 
 The `path.sep` property is a platform-specific path segment separator used in file system paths. It provides a string representing the character used to separate directories or folders in a file path. The value of `path.sep` varies depending on the operating system.
 
