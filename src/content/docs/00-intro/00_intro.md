@@ -5,7 +5,7 @@ sidebar:
   label: About the eBook
 ---
 
-# Welcome to Some drops of JavaScript
+
 
 ## The reason why
 This book collects some useful, unknown, underrated JavaScript functions or stuff discovered, used, and learned during JavaScript daily use.

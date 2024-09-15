@@ -1,6 +1,21 @@
-# Hacktoberfest and "Some drops of JavaScript"
+---
+title: Hacktoberfest and "Some drops of JavaScript"
+description: How to contribute for Hacktoberfest.
+sidebar:
+  label: Hacktoberfest 2024
+  badge:
+    text: Contribute
+    variant: tip
+banner:
+  content: |
+    The open-source eBook,
+    <a href="https://github.com/roberto-butti/some-drops-of-javascript">feel free to contribute adding or reviewing content for Hacktoberfest</a>
 
-![Some drops of JavaScript and Hacktoberfest 2024](public/header-hacktoberfest-2024.png)
+---
+
+
+
+![Some drops of JavaScript and Hacktoberfest 2024](../../../assets/header-hacktoberfest-2024.png)
 
 Hello amazing contributors! 👋
 
