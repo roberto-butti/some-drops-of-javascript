@@ -42,7 +42,7 @@ Here are some of the ways you can get involved:
 3. Make your changes and commit them.
 4. Open a pull request to merge your changes back into the main repository.
 
-For more detailed instructions, please check our [Contribution Guidelines](CONTRIBUTING.md).
+For more detailed instructions, please check our [Contribution Guidelines](https://github.com/roberto-butti/some-drops-of-javascript/blob/main/CONTRIBUTING.md).
 
 ## Join the Conversation
 
