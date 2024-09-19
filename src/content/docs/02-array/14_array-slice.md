@@ -4,9 +4,9 @@ sidebar:
   label: Extracting Array
 ---
 
-## Extracting Part of an Array: `slice()`
+## Extracting part of an Array: `slice()`
 
-The `slice()` method in JavaScript is used to extract a section of an array and return it as a new array without modifying the original array. This method is useful when you want to work with a portion of an array without affecting the original one.
+The `slice()` method in JavaScript extracts a section of an array and returns it as a new array without modifying the original array. This method is helpful when working with a portion of an array without affecting the original one.
 
 The `slice()` function takes two arguments: the start index (inclusive) and the end index (exclusive). The range defined by these indices is used to select elements from the array.
 
@@ -35,7 +35,7 @@ In this example:
 - The start index is `1` (which is "cat"), and the end index is `4` (which is "lion", but since the end index is exclusive, it's not included).
 - The extracted subarray includes the elements from index `1` to `3`.
 
-_Example 2_, using slice() with only the start index:
+_Example 2_, using `slice()` with only the start index:
 
 ```js
 const fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry']
@@ -46,7 +46,7 @@ console.log(subArrayFromIndex) // Output: ['cherry', 'date', 'elderberry']
 
 - In this case, by providing only the start index (2), `slice()` extracts all elements from index 2 to the end of the array.
 
-_Example 3_, using slice() with negative indices:
+_Example 3_, using `slice()` with negative indices:
 
 ```js
 const colors = ['red', 'blue', 'green', 'yellow', 'purple']
