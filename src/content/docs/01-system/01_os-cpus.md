@@ -1,18 +1,19 @@
 ---
 title: "CPUs information"
+description: "Retrieving the list of the available CPUs"
 sidebar:
   label: CPUs information
 ---
 ## Info from CPU: `os.cpus()`
 
-The `os` module allows you to retrieve some relevant information about the environment used for running your _Node.js_ script or application.
+The `os` module allows you to retrieve relevant information about the environment used for running your _Node.js_ script or application.
 
 ```javascript
 import { cpus } from 'os'
 const c = cpus()
 ```
 
-The `os` module provides you with some methods. One of them is the `cpus()` that returns the list of CPUs available in your environment. For each element of the list (each element is one CPU), you have the `model` attribute that has the CPU model name (for example "Apple M1 Pro") and the `speed` attribute, an integer for showing the speed of the CPU.
+The `os` module provides you with some methods. One is the `cpus()` that returns the list of CPUs available in your environment. For each element of the list (each element is one CPU), you have the `model` attribute that has the CPU model name (for example, "Apple M1 Pro") and the `speed` attribute, an integer for showing the speed of the CPU.
 Then you have also `times` attribute for the times (in milliseconds) that the CPU has spent in these modes: `user`, `nice` (valid only for Posix systems, in Windows this value is always 0), `sys`, `idle`, `irq`.
 
 It returns:
@@ -40,7 +41,7 @@ cpus().forEach(cpu => {
 
 ### Calculating the CPU utilization
 
-You can use the `os.cpus()` function to calculate the utilization of each CPU core, which is useful for performance monitoring and work load analysis.
+You can use the `os.cpus()` function to calculate the utilization of each CPU core, which is helpful for performance monitoring and workload analysis.
 
 ```javascript
 import { cpus } from 'os'
@@ -56,7 +57,7 @@ cpus().forEach((cpu, index) => {
 
 ### Identifying the Number of Logical CPU Cores
 
-In scenarios where you need to determine the number of **logical CPU cores** available for parallel processing, you can use os.cpus() as follows:
+In scenarios where you need to determine the number of **logical CPU cores** available for parallel processing, you can use `os.cpus()` as follows:
 
 
 ```javascript
@@ -71,8 +72,8 @@ This is particularly useful when creating worker threads or child processes to m
 
 ### Common Pitfalls
 
-- Misunderstanding Logical vs. Physical Cores: The `os.cpus()` function returns the number of logical cores, not physical cores. In systems with hyper-threading, the number of logical cores will be higher than the number of physical cores.
-- Platform-Specific Behavior: The data returned by `os.cpus()` may vary slightly depending on the operating system. Ensure compatibility and testing across different platforms if your application needs to run on multiple OS types.
+- Misunderstanding Logical vs. Physical Cores: The `os.cpus()` function returns the number of logical cores, not physical cores. In systems with hyper-threading, the number of logical cores will be higher than that of physical cores.
+- Platform-Specific Behavior: The data returned by `os.cpus()` may vary slightly depending on the operating system. If your application needs to run on multiple OS types, ensure compatibility and testing across different platforms.
 
 ### Resources
 
