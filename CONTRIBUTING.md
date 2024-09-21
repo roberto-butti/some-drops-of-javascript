@@ -74,3 +74,52 @@ If you want to submit a pull request, please send a [GitHub Pull Request to Some
 
 
 Please use "main" branch for pull request.
+
+## Instructions for writing a markdown file for a JavaScript Function
+
+Each chapter in this book focuses on a single JavaScript function or method. The goal is to provide comprehensive, well-structured, and practical documentation that helps developers understand and use the function effectively. Follow the guidelines below to structure your chapter.
+
+### Chapter Structure
+
+1. Frontmatter (Mandatory)
+
+The frontmatter section should be placed at the beginning of the markdown file and enclosed between triple dashes (---). It provides essential metadata about the chapter.
+
+Example for mandatory fields:
+```
+---
+title: 'Modifying an Array'
+description: 'Adding, removing, and replacing elements in an array with JavaScript.'
+sidebar:
+  label: Modifying Array
+---
+```
+Where:
+- `title`: The feature implemented via the function
+- `description`: A brief overview of what the function does.
+- `sidebar.label`: the label used in the left menu
+
+2. Introduction
+
+Start with a clear and concise explanation of what the function does. Highlight its primary use cases and why it's useful.
+
+3. Syntax and Parameters
+
+- Provide the general syntax of the function, including its parameters and their expected types.
+- Describe each parameter in detail, including whether it is optional or required and what its role is.
+- Include the return type of the funtion
+
+4. Use cases
+
+Provide several practical use cases demonstrating how the function can be used to solve real-world problems.
+
+Each use case should include a clear explanation of the problem being solved, a code example, and a detailed breakdown of how the function is being used.
+
+5. Common Pitfalls
+
+- Discuss common mistakes or misunderstandings related to the function.
+- Provide guidance on how to avoid these issues.
+
+6. Additional Resources
+
+Include links to relevant documentation, tutorials, or other chapters in the book for further reading.
