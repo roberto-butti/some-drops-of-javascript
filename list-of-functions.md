@@ -24,6 +24,10 @@
 - [x] 02-10 Testing at least one element: `some()`
 - [x] 02-11 Mapping new array: `map()`
 - [x] 02-12 Reduce array: `reduce()`
+- [x] 02-13 Modify array: `splice()`
+- [x] 02-14 Extracting elements: `slice()`
+- [ ] 02-15 Flat nested array: `flat()` https://github.com/roberto-butti/some-drops-of-javascript/issues/51
+- [ ] 02-16 Find the index of an element that matches a condition https://github.com/roberto-butti/some-drops-of-javascript/issues/52
 
 - [ ] 03-00 Variables, constants, Object
 - [x] 03-01 Get variable type: `typeof`
