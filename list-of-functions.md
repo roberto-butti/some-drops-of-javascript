@@ -1,4 +1,4 @@
-- [x] 01-00 SYSTEM
+- [x] 01-00 **System**
 - [x] 01-01 Info from CPU: `os.cpus()`
 - [x] 01-02 Info from Operating System: `os.version()` and `os.platform()`
 - [x] 01-03 Info from current user: `os.userInfo()`
@@ -11,7 +11,7 @@
 - [x] 01-10 Get temporary directory: `os.tmpdir()`
 - [x] 01-11 Get monotonic time: `performance.now()`
 
-- [x] 02-00 ARRAY
+- [x] 02-00 **Array**
 - [x] 02-01 Create a string from an array: `join()`
 - [x] 02-02 Check if the array includes a certain value: `includes()`
 - [x] 02-03 Check if a key exists in the array: `in`
@@ -29,21 +29,32 @@
 - [ ] 02-15 Flat nested array: `flat()` https://github.com/roberto-butti/some-drops-of-javascript/issues/51
 - [ ] 02-16 Find the index of an element that matches a condition https://github.com/roberto-butti/some-drops-of-javascript/issues/52
 
-- [ ] 03-00 Variables, constants, Object
+- [x] 03-00 **Variables, constants, Object**
 - [x] 03-01 Get variable type: `typeof`
 - [x] 03-02 Portable directory separator: `path.sep`
 - [x] 03-03 Portable end of line: `os.EOL`
-- [ ] 03-04 Gets the properties of the given object: `getOwnPropertyNames()`
-- [ ] 03-05 Getting all the Object properties/attributes: `key()`
-- [ ] 03-06 Object values: `values()`
-- [ ] 03-07 Object entries: `entries()`
-- [ ] 03-08 Object freeze: `freeze()`
-- [ ] 03-09 Object seal: `seal()`
-- [ ] 03-10 Object is frozen: `isFrozen()`
-- [ ] 03-11 Object is sealed: `isSealed()`
+- [x] 03-04 Gets the properties of the given object: `getOwnPropertyNames()`
+- [x] 03-05 Getting all the Object properties/attributes: `keys()`
+- [x] 03-06 Object values: `values()`
+- [x] 03-07 Object entries: `entries()`
+- [x] 03-08 Object freeze: `freeze()`
+- [x] 03-09 Object seal: `seal()`
+- [x] 03-10 Object is frozen: `isFrozen()`
+- [x] 03-11 Object is sealed: `isSealed()`
 
-- [ ] 04-00 Functions
-- [ ] 05-00 Strings
-- [ ] 05-03 String includes: `includes()`
-- [ ] 06-00 Files
-- [ ] 06-01 Current directory: `process.cwd()`
+- [x] 04-00 **Functions**
+
+- [x] 05-00 **Strings**
+- [x] 05-01 Concatenating strings: `concat()`
+- [x] 05-02 Padding Strings: `padStart()` `padEnd()`
+- [x] 05-03 String includes: `includes()`
+- [x] 05-04 Slicing strings: `slice()`
+- [x] 05-05 Finding index: `indexOf()`
+- [x] 05-06 Repeating a string: `repeat()`
+- [x] 05-07 Splitting a String into an Array: `split()`
+- [x] 05-08 Upper case: `toUpperCase()`
+- [x] 05-09 Lower case: `toLowerCase()`
+- [x] 05-10 Start with: `startWith()`
+
+- [ ] 06-00 **Files**
+- [ ] 06-01 Current directory: `process.cwd()` https://github.com/roberto-butti/some-drops-of-javascript/issues/53
