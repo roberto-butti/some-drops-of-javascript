@@ -28,7 +28,7 @@
 - [x] 02-14 Extracting elements: `slice()`
 - [ ] 02-15 Flat nested array: `flat()` https://github.com/roberto-butti/some-drops-of-javascript/issues/51
 - [ ] 02-16 Find the index of an element that matches a condition `findIndex()` https://github.com/roberto-butti/some-drops-of-javascript/issues/52
-- [ ] 02-17 Allows accessing elements using positive or negative indices `at()`
+- [ ] 02-17 Allows accessing elements using positive or negative indices `at()` https://github.com/roberto-butti/some-drops-of-javascript/issues/54
 - [ ] 02-18 First maps each element using a mapping function, then flattens the result into a new array `flatMap()`
 - [ ] 02-19 Shallow copies part of an array to another location in the same array `copyWithin()`
 - [ ] 02-20 returns the last element in the array that satisfies the provided testing function `findLast()`
