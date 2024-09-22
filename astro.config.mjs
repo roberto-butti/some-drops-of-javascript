@@ -67,6 +67,11 @@ export default defineConfig({
           collapsed: true,
         },
         {
+          label: '🗃️ Files',
+          autogenerate: { directory: '06-files' },
+          collapsed: true,
+        },
+        {
           label: '[ 🧑‍💻 Sources ]',
           items: [
             // Each item here is one entry in the navigation menu.
