@@ -27,7 +27,17 @@
 - [x] 02-13 Modify array: `splice()`
 - [x] 02-14 Extracting elements: `slice()`
 - [ ] 02-15 Flat nested array: `flat()` https://github.com/roberto-butti/some-drops-of-javascript/issues/51
-- [ ] 02-16 Find the index of an element that matches a condition https://github.com/roberto-butti/some-drops-of-javascript/issues/52
+- [ ] 02-16 Find the index of an element that matches a condition `findIndex()` https://github.com/roberto-butti/some-drops-of-javascript/issues/52
+- [ ] 02-17 Allows accessing elements using positive or negative indices `at()`
+- [ ] 02-18 First maps each element using a mapping function, then flattens the result into a new array `flatMap()`
+- [ ] 02-19 Shallow copies part of an array to another location in the same array `copyWithin()`
+- [ ] 02-20 returns the last element in the array that satisfies the provided testing function `findLast()`
+- [ ] 02-21 returns the last index of the element in the array that satisfies the provided testing function `findLastIndex()`
+- [ ] 02-22 Groups elements of an array based on a function, either returning an object `groupBy()`
+- [ ] 02-23 Returns a new Array Iterator object that contains the keys (indices) for each index in the array `keys()`
+- [ ] 02-24 returns a new Array Iterator object that contains the values for each index in the array `values()`
+- [ ] 02-25 Returns a new Array Iterator object that contains the keys (indices) for each index in the array `keys()`
+- [ ] 02-26 Returns a new Array Iterator object that contains key/value pairs for each index in the array `entries()`
 
 - [x] 03-00 **Variables, constants, Object**
 - [x] 03-01 Get variable type: `typeof`
@@ -41,6 +51,7 @@
 - [x] 03-09 Object seal: `seal()`
 - [x] 03-10 Object is frozen: `isFrozen()`
 - [x] 03-11 Object is sealed: `isSealed()`
+- [ ] 03-12 Transforms a list of key-value pairs into an object: `fromEntries()`
 
 - [x] 04-00 **Functions**
 
@@ -55,6 +66,11 @@
 - [x] 05-08 Upper case: `toUpperCase()`
 - [x] 05-09 Lower case: `toLowerCase()`
 - [x] 05-10 Start with: `startWith()`
+- [ ] 05-11 Replaces all occurrences of a substring in a string: `replaceAll()`
+- [ ] 05-12 Removes whitespace from the beginning or end of a String `trimStart()` and `trimEnd()`
+
+
+
 
 - [x] 06-00 **Files**
 - [ ] 06-01 Current directory: `process.cwd()` https://github.com/roberto-butti/some-drops-of-javascript/issues/53
