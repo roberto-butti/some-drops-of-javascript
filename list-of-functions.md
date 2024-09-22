@@ -56,5 +56,5 @@
 - [x] 05-09 Lower case: `toLowerCase()`
 - [x] 05-10 Start with: `startWith()`
 
-- [ ] 06-00 **Files**
+- [x] 06-00 **Files**
 - [ ] 06-01 Current directory: `process.cwd()` https://github.com/roberto-butti/some-drops-of-javascript/issues/53
