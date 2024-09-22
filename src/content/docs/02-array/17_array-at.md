@@ -24,7 +24,7 @@ const item = fruit.at(2)
 
 console.log(item) // Output: "orange"
 ```
-In this example we used negative integers to access elements, counting from the start of the array. When we used `0` as the index, the first element was returned. 
+In this example we used positive integers to access elements, counting from the start of the array. When we used `0` as the index, the first element was returned. 
 
 _Example 2_, using `at()` to access an element counting back from the end of the array:
 
