@@ -16,13 +16,13 @@ The `findIndex()` function accepts a single argument: a callback function that t
 //Syntax
 findIndex(callbackFn(currentVal, index, arr))
 findIndex(callbackFn(currentVal, index, arr), thisArg)
-
-`callbackFn()`: A function to execute for each element in the array. It should return a truthy value to indicate a matching element has been found, and a falsy value otherwise. The function is called with the following arguments: currentVal, index and arr
-`currentVal`: (Required) The current element being processed in the array.
-`index`: (Optional) The index of the current element being processed in the array.
-`arr`: (Optional) The array findIndex() was called upon.
-`thisArg`: (Optional) The value to use as `this` when executing the callback function. By default it is undefined.
 ```
+
+- `callbackFn()`: A function to execute for each element in the array. It should return a truthy value to indicate a matching element has been found, and a falsy value otherwise. The function is called with the following arguments: currentVal, index and arr
+- `currentVal`: (Required) The current element being processed in the array.
+- `index`: (Optional) The index of the current element being processed in the array.
+- `arr`: (Optional) The array findIndex() was called upon.
+- `thisArg`: (Optional) The value to use as `this` when executing the callback function. By default it is undefined.
 
 
 ### Examples
