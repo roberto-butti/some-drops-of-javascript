@@ -15,7 +15,7 @@
     "@astrojs/starlight": "^0.28.2",
     "@astrojs/starlight-tailwind": "^2.0.3",
     "@astrojs/tailwind": "^5.1.1",
-    "astro": "^4.15.8",
+    "astro": "^4.15.9",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
