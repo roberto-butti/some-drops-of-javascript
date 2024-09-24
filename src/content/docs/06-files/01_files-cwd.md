@@ -1,13 +1,13 @@
 ---
 title: 'Getting the Current Working Directory'
-description: 'Using process.cwd() to retrieve the current working directory in Node.js'
+description: 'Using process.cwd() to retrieve the current working directory'
 sidebar:
-  label: process.cwd()
+  label: Current Directory
 ---
 
-# process.cwd()
+## Getting the current working directory with `process.cwd()`
 
-The `process.cwd()` method in Node.js returns the current working directory of the Node.js process.
+The `process.cwd()` method returns the current working directory of the process.
 
 ## Syntax
 
@@ -21,7 +21,7 @@ This method doesn't take any parameters.
 
 ### Return Value
 
-Returns a string representing the current working directory of the Node.js process.
+Returns a string representing the current working directory of the process.
 
 ## Use Cases
 
@@ -46,17 +46,9 @@ fs.readFile(filePath, 'utf8', (err, data) => {
 console.log(`The current working directory is: ${process.cwd()}`);
 ```
 
-### 3. Changing the Current Working Directory
-
-```javascript
-console.log(`Starting directory: ${process.cwd()}`);
-process.chdir('../');
-console.log(`New directory: ${process.cwd()}`);
-```
-
 ## Common Pitfalls
 
-1. **Assuming it's the Script's Directory**: `process.cwd()` returns the directory from which the Node process was launched, not necessarily the directory of the script being executed.
+1. **Assuming it's the Script's Directory**: `process.cwd()` returns the directory from which the JavaScript process was launched, not necessarily the directory of the script being executed.
 
 2. **Not Accounting for Symbolic Links**: If your application is run from a symbolic link, `process.cwd()` will return the real path, not the path of the symbolic link.
 
