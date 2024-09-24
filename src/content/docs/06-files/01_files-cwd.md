@@ -49,10 +49,7 @@ console.log(`The current working directory is: ${process.cwd()}`);
 ## Common Pitfalls
 
 1. **Assuming it's the Script's Directory**: `process.cwd()` returns the directory from which the JavaScript process was launched, not necessarily the directory of the script being executed.
-
 2. **Not Accounting for Symbolic Links**: If your application is run from a symbolic link, `process.cwd()` will return the real path, not the path of the symbolic link.
-
-3. **Changing Working Directory**: Be cautious when changing the working directory with `process.chdir()`, as it affects the entire Node.js process and can lead to unexpected behavior in other parts of your application.
 
 ## Additional Resources
 
