@@ -16,15 +16,11 @@ It accepts up to three parameters, but only the first parameter is mandatory. He
 array.copyWithin(target, start, end)
 ```
 
-1. `target` (required):
+1. `target` (required): this is the only mandatory parameter. It specifies the index where the copying will begin (the destination index). Elements from another part of the array will be copied here. If the target is negative, it will be counted from the end of the array.
 
-  This is the only mandatory parameter. It specifies the index where the copying will begin (the destination index). Elements from another part of the array will be copied here. If the target is negative, it will be counted from the end of the array.
-
-2. `start` (optional):
-    This is the index from which the copying will start (the source index). If omitted, the copying will start from the beginning of the array (index 0). If negative, it counts from the end of the array.
-
-3. `end` (optional):
-    This specifies the index where to stop copying (non-inclusive). If omitted, the copying continues until the end of the array. If negative, it also counts from the end of the array.
+2. `start` (optional): this is the index from which the copying will start (the source index). If omitted, the copying will start from the beginning of the array (index 0). If negative, it counts from the end of the array.
+    
+3. `end` (optional): this specifies the index where to stop copying (non-inclusive). If omitted, the copying continues until the end of the array. If negative, it also counts from the end of the array.
 
 ### Example: basic syntax with one parameter
 When using one parameter with `copyWithin()`, this parameter indicates the target position from which the copied elements will be placed within the same array.
