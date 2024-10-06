@@ -6,7 +6,7 @@ sidebar:
 ---
 
 # Array
-In this chapter, we will explore one of JavaScript's most fundamental andstructures versatile data: **arrays**.
+This chapter will explore one of JavaScript's most fundamental and versatile data structures: **arrays**.
 
 Arrays are essential in any JavaScript developer’s toolkit, enabling efficient data storage and manipulation. Understanding how to work with arrays is key to writing clean, performant, and maintainable code.
 
