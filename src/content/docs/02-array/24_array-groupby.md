@@ -24,33 +24,6 @@ An object where each key is the result of the `callbackFn` function, and the cor
 ## Description
 The `groupBy()` method executes the provided `callbackFn` function once for each element in the array. It then groups the array elements according to the returned values from the `callbackFn`.
 
-## Examples
-```javascript
-const inventory = [
-  { name: "asparagus", type: "vegetables", quantity: 5 },
-  { name: "bananas", type: "fruit", quantity: 0 },
-  { name: "goat", type: "meat", quantity: 23 },
-  { name: "cherries", type: "fruit", quantity: 5 },
-  { name: "fish", type: "meat", quantity: 22 },
-];
-
-const result = inventory.groupBy(({ type }) => type);
-
-console.log(result);
-// {
-//   vegetables: [
-//     { name: "asparagus", type: "vegetables", quantity: 5 },
-//   ],
-//   fruit: [
-//     { name: "bananas", type: "fruit", quantity: 0 },
-//     { name: "cherries", type: "fruit", quantity: 5 }
-//   ],
-//   meat: [
-//     { name: "goat", type: "meat", quantity: 23 },
-//     { name: "fish", type: "meat", quantity: 22 }
-//   ]
-// }
-```
 
 ## Notes
 - The `groupBy()` method is a relatively new addition to JavaScript and may not be supported in all environments. Check for compatibility before using it in production.
