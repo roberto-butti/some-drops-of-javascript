@@ -29,7 +29,7 @@ Here are some of the ways you can get involved:
 
 - **Reviewers and Editors**: Help ensure the quality and accuracy of the content by reviewing and editing pages.
 
-- **Grammar Enthusiasts**: Review and improve the English grammar and readability of our documentation.
+- **Grammar Enthusiasts**: Review and improve our documentation's English grammar and readability.
 
 - **Idea Contributors**: Suggest JavaScript functions that should be covered in the documentation. Your insights are valuable!
 
@@ -46,10 +46,10 @@ For more detailed instructions, please check our [Contribution Guidelines](https
 
 ## Join the Conversation
 
-Have questions or want to discuss your contributions? Join us on the [repository issue section](https://github.com/roberto-butti/some-drops-of-javascript/issues), where you can create issues but also create suggestions, feature requests.
+Have questions or want to discuss your contributions? Join us in the repository issue section, where you can create issues, suggestions, and feature requests.
 
 ## Say Thank You!
 
-We deeply appreciate your willingness to contribute to the open-source book "Some drops of JavaScript". Your efforts make a significant impact on the JavaScript community, and we're grateful for your support.
+We deeply appreciate your willingness to contribute to the open-source book "Some Drops of JavaScript". Your efforts significantly impact the JavaScript community, and we're grateful for your support.
 
 Happy Hacking! 🚀

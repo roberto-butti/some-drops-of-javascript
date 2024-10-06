@@ -14,7 +14,7 @@ banner:
 
 ---
 
-Hello amazing contributors! 👋
+Hello, amazing contributors! 👋
 
 We are excited to invite you to join our [repository](https://github.com/roberto-butti/some-drops-of-javascript) and contribute to the open-source book project. We welcome contributors with various skills and interests, so whether you're a JavaScript expert, a grammar enthusiast, a design aficionado, or just someone with a passion for learning and sharing knowledge, there's a place for you in our open-source book project.
 
@@ -27,7 +27,7 @@ Here are some of the ways you can get involved:
 
 - **Reviewers and Editors**: Help ensure the quality and accuracy of the content by reviewing and editing pages.
 
-- **Grammar Enthusiasts**: Review and improve the English grammar and readability of our documentation.
+- **Grammar Enthusiasts**: Review and improve our documentation's English grammar and readability.
 
 - **Idea Contributors**: Suggest JavaScript functions that should be covered in the documentation. Your insights are valuable!
 
@@ -48,10 +48,10 @@ Have questions or want to discuss your contributions? Join us in the [repository
 
 ## Thank You!
 
-We deeply appreciate your willingness to contribute to the open-source book "Some drops of JavaScript". Your efforts make a significant impact on the JavaScript community, and we're grateful for your support.
+We deeply appreciate your willingness to contribute to the open-source book "Some Drops of JavaScript". Your efforts significantly impact the JavaScript community, and we're grateful for your support.
 
 :::tip[Thank you to all the contributors]
-I would like to say a special thank you to all the [contributors](https://github.com/roberto-butti/some-drops-of-javascript/graphs/contributors).
+I want to say a special thank you to all the [contributors](https://github.com/roberto-butti/some-drops-of-javascript/graphs/contributors).
 :::
 
 Thank you! 🚀

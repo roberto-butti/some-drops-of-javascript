@@ -8,12 +8,12 @@ sidebar:
 
 
 ## The reason why
-This book collects useful, unknown, or underrated JavaScript functions or things discovered, used, and learned during daily JavaScript use.
+This book collects practical, unknown, or underrated JavaScript functions or things discovered, used, and learned during daily JavaScript use.
 
-When using JavaScript frameworks/libraries daily (like React, Vue, Angular, and Svelte), sometimes one can lose sight of the language's power and the basic functionalities provided by the JavaScript core.
-I see that I usually look at the framework documentation or find a package in NPM for the system, array, and string functions instead of using the core functionalities provided by the language.
+When using JavaScript frameworks/libraries daily (like React, Vue, Angular, and Svelte), sometimes one needs to catch up on the language's power and the basic functionalities the JavaScript core provides.
+I notice that I usually look at the framework documentation or find a package in NPM for the system, array, and string functions instead of using the core functionalities provided by the language.
 
-While I wrote this HTML book, I also wrote some scripts to better understand the functions' behavior. You can find these examples here: https://github.com/roberto-butti/some-drops-of-javascript in the _examples_ directory.
+While I wrote this HTML book, I also wrote some scripts to better understand the functions' behavior. You can find these examples in the examples directory at https://github.com/roberto-butti/some-drops-of-javascript.
 
 ### Requirements
 
@@ -45,7 +45,7 @@ This book is available for download for free here: https://github.com/roberto-bu
 Thanks to all the Open Source community.
 
 ### License
-"Some drops of JavaScript" (c) by Roberto Butti
+"Some drops of JavaScript" (c) by Roberto Butti.
 
 "Some drops of JavaScript" is licensed under a
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
