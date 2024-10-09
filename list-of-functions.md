@@ -35,7 +35,6 @@
 - [x] 02-21 returns the last index of the element in the array that satisfies the provided testing function `findLastIndex()`
 - [x] 02-22 returns the last element in the array that satisfies the provided testing function `findLast()`
 - [x] 02-23 Shallow copies part of an array to another location in the same array `copyWithin()`
-- [ ] 02-24 Groups elements of an array based on a function, either returning an object `groupBy()` https://github.com/roberto-butti/some-drops-of-javascript/issues/64
 - [ ] 02-25 returns a new Array Iterator object that contains the values for each index in the array `values()`  https://github.com/roberto-butti/some-drops-of-javascript/issues/70
 
 - [x] 03-00 **Variables, constants, Object**
@@ -50,7 +49,8 @@
 - [x] 03-09 Object seal: `seal()`
 - [x] 03-10 Object is frozen: `isFrozen()`
 - [x] 03-11 Object is sealed: `isSealed()`
-- [ ] 03-12 Transforms a list of key-value pairs into an object: `fromEntries()`
+- [ ] 03-12 Groups elements of an array based on a function, either returning an object `groupBy()` https://github.com/roberto-butti/some-drops-of-javascript/issues/64
+- [ ] 03-13 Transforms a list of key-value pairs into an object: `fromEntries()`
 
 - [x] 04-00 **Functions**
 
