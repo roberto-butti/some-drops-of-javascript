@@ -20,3 +20,20 @@ for (const fruit of [, "Banana"].entries()) {
 
 console.log(fruitsEntries.next().value + " " + fruitsEntries.next().value);
 // "0,Banana 1,Apple"
+
+const user = {
+    name: 'John',
+    age: 30
+}
+console.log(Object.entries(user)); // [['name', 'John'], ['age', 30]]
+
+const mapping = new Map();
+mapping.set("0", "Peach");
+mapping.set(1, "Mango");
+mapping.set({}, "Banana");
+
+const mapIter = mapping.entries();
+
+console.log(mapIter.next().value); // ["0", "Peach"]
+console.log(mapIter.next().value); // [1, "Mango"]
+console.log(mapIter.next().value); // [Object, "Banana"]

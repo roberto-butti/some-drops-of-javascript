@@ -76,7 +76,33 @@ console.log(fruitsEntries.next().value + " " + fruitsEntries.next().value);
 ```
 In the above example, `next()` is called twice, this using the first two values of `fruitsEntries`.
 
+### `entries()` for Object and Map
+`entries()` method is also available for JavaScript [Object](/03-var/07_object-entries/). It's similar to Array, in this way:
+
+```js
+const user = {
+    name: 'John',
+    age: 30
+}
+console.log(Object.entries(user)); // [['name', 'John'], ['age', 30]]
+```
+It's available also for Map (Map object are collections of key-value pairs), for example:
+
+```js
+const mapping = new Map();
+mapping.set("0", "Peach");
+mapping.set(1, "Mango");
+mapping.set({}, "Banana");
+
+const mapIter = mapping.entries();
+
+console.log(mapIter.next().value); // ["0", "Peach"]
+console.log(mapIter.next().value); // [1, "Mango"]
+console.log(mapIter.next().value); // [Object, "Banana"]
+```
+
 ### Notes
 
 - **Return on object**: `entries()` method return an iterator object that contains the key/value.
 - **Access each element**: `next()` method allows the access to elements one at a time.
+- **Available also for other elements**: `entries()` method is also available for Object and Map.
