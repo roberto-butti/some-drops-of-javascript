@@ -8,7 +8,7 @@ sidebar:
 
 If you want to check if the array includes a specific value, you can use `includes()` method. The first mandatory input argument of `includes()` method is the value of the element you want to check.
 
-```javascritpt
+```javascript
 const elements = ['kiwi', 'strawberry', 'lemon']
 
 console.log(elements.includes('strawberry'))
