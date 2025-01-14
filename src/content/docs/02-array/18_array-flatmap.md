@@ -11,34 +11,38 @@ The `flatMap()` method in JavaScript combines the functionality of `map()` and `
 
 The `flatMap()` method does not take a depth argument; it flattens the array by exactly one level.
 
-```Javascript
-// Syntax
-flatMap(callback(currentValue, index, array), thisArg);
+The two arguments:
 
-`callback`: A function to execute on each element.
-`thisArg`: Value to use as `this` when executing the callback.
-```
+- `callback`: a function to execute on each element.
+- `thisArg`: value to use as `this` when executing the callback.
+
 
 ### Examples
 _Example 1_, using `flatMap()` to map and flatten a nested array:
-```Javascript
+
+```javascript
 const arr = [[1, 2], [3, 4], [5, 6]];
 console.log(arr.flatMap(x => x)); // Output: [1, 2, 3, 4, 5, 6]
 ```
+
 In this example, the `flatMap()` method is used to flatten each sub-array in arr by one level. The callback simply returns the elements as they are, and flatMap() flattens the resulting nested arrays.
 
 _Example 2_, using `flatMap()` to handle nested arrays and sparse arrays:
-```Javascript
+
+```javascript
 const arr3 = [[1, 2], , [3, 4], [5, 6]];
 console.log(arr3.flatMap(x => x)); // Output: [1, 2, 3, 4, 5, 6]
 ```
+
 In this example, `flatMap()` flattens the nested arrays while automatically removing empty slots from sparse arrays.
 
 _Example 3_, using `flatMap()` to concatenate and flatten strings in a nested array:
-```Javascript
+
+```javascript
 const arr4 = [["hello", "world"], ["foo", "bar"]];
 console.log(arr4.flatMap(x => x.join(' ')));  // Output: ["hello world", "foo bar"]
 ```
+
 Here, each nested array is joined into a single string using `join()`, and `flatMap()` flattens the resulting array of strings into a single-level array.
 
 ### Notes

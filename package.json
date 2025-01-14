@@ -12,15 +12,15 @@
     "format-examples-bun": "bunx prettier ./examples/ --write"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.28.2",
-    "@astrojs/starlight-tailwind": "^2.0.3",
-    "@astrojs/tailwind": "^5.1.1",
-    "astro": "^4.15.11",
+    "@astrojs/starlight": "0.31.0",
+    "@astrojs/starlight-tailwind": "3.0.0",
+    "@astrojs/tailwind": "^5.1.4",
+    "astro": "5.1.6",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "bun-types": "^1.1.29",
-    "daisyui": "^4.12.12"
+    "bun-types": "^1.1.43",
+    "daisyui": "^4.12.23"
   },
   "trustedDependencies": [
     "esbuild",
