@@ -69,6 +69,7 @@
 - [ ] 05-12 Removes whitespace from the beginning or end of a String `trimStart()` and `trimEnd()`
 - [x] 05-13 Removes whitespace from both ends of a String: `trim()`
 - [x] 05-14 Checking if a string ends with a specific substring: `endsWith()`
+- [x] 05-15 Extracting parts of a string: `substring()`
 
 - [x] 06-00 **Files**
 - [ ] 06-01 Current directory: `process.cwd()` https://github.com/roberto-butti/some-drops-of-javascript/issues/53
