@@ -57,9 +57,9 @@ The `i` flag makes the regular expression case-insensitive, but only the first o
 #### Using Function as Replacement:
 
 ```javascript
-const text = 'apple orange banana';
+const text = 'the apple, the orange, and the banana';
 const newText = text.replace(/apple|orange|banana/g, match => match.toUpperCase());
-console.log(newText); // Output: "APPLE ORANGE BANANA"
+console.log(newText); // Output: "the APPLE, the ORANGE, and the BANANA"
 ```
 
 Here, a function is used as the replacement, which converts each matched fruit name to uppercase.
@@ -111,4 +111,4 @@ function createSlug(title) {
 console.log(createSlug('Hello World! This is a Title')); // Output: "hello-world-this-is-a-title"
 ```
 
-By using the `String.replace()` method, you can efficiently perform string substitutions and transformations, which is essential for text processing, data cleaning, and formatting in JavaScript applications. 
+By using the `String.replace()` method, you can efficiently perform string substitutions and transformations, which is essential for text processing, data cleaning, and formatting in JavaScript applications.
