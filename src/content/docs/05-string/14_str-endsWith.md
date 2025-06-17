@@ -76,7 +76,7 @@ console.log(isImageFile('document.pdf')); // Output: false
 
 ```javascript
 function isSecureGoogleUrl(url) {
-  return url.toLowerCase().endsWith('google.com') && url.startsWith('https://');
+  return url.toLowerCase().endsWith('.google.com') && url.startsWith('https://');
 }
 
 console.log(isSecureGoogleUrl('https://www.google.com')); // Output: true
@@ -95,4 +95,4 @@ console.log(endsWithPunctuation('Hello world!')); // Output: true
 console.log(endsWithPunctuation('Hello world')); // Output: false
 ```
 
-By using the `String.endsWith()` method, you can easily check if a string ends with specific characters, which is particularly useful for validating file types, URL formats, and ensuring proper string formatting in JavaScript applications. 
+By using the `String.endsWith()` method, you can easily check if a string ends with specific characters, which is particularly useful for validating file types, URL formats, and ensuring proper string formatting in JavaScript applications.

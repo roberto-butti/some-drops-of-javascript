@@ -36,7 +36,7 @@ console.log(`"document.pdf" is an image file: ${isImageFile('document.pdf')}`)
 
 // URL validation
 function isSecureGoogleUrl(url) {
-    return url.toLowerCase().endsWith('google.com') && url.startsWith('https://')
+    return url.toLowerCase().endsWith('.google.com') && url.startsWith('https://')
 }
 
 console.log(`"https://www.google.com" is a secure Google URL: ${isSecureGoogleUrl('https://www.google.com')}`)
@@ -53,4 +53,4 @@ function endsWithPunctuation(text) {
 console.log(`"Hello world!" ends with punctuation: ${endsWithPunctuation('Hello world!')}`)
 // Output: true
 console.log(`"Hello world" ends with punctuation: ${endsWithPunctuation('Hello world')}`)
-// Output: false 
+// Output: false
