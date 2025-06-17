@@ -13,7 +13,7 @@ console.log(`Trimmed: "${text.trim()}"`)
 // Output: Trimmed: "JavaScript is awesome!"
 
 // Chaining with other string methods
-const userInput = '   hello@example.com   '
+const userInput = '   heLLo@eXampLe.com   '
 const normalizedEmail = userInput.trim().toLowerCase()
 console.log(`Original: "${userInput}"`)
 console.log(`Normalized: "${normalizedEmail}"`)
@@ -33,4 +33,4 @@ const csvData = ['  name ', ' age ', ' city  ']
 const cleanData = csvData.map(item => item.trim())
 console.log('Original CSV data:', csvData)
 console.log('Cleaned data:', cleanData)
-// Output: Cleaned data: ["name", "age", "city"] 
+// Output: Cleaned data: ["name", "age", "city"]

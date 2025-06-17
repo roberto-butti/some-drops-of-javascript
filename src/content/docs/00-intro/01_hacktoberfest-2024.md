@@ -10,7 +10,7 @@ banner:
   content: |
     The open-source eBook,
     <a href="https://github.com/roberto-butti/some-drops-of-javascript">feel free to contribute adding or reviewing content for Hacktoberfest</a>
-
+draft: true
 ---
 
 
