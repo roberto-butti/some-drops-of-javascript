@@ -31,11 +31,15 @@
 - [x] 02-17 Allows accessing elements using positive or negative indices `at()`
 - [x] 02-18 First maps each element using a mapping function, then flattens the result into a new array `flatMap()`
 - [x] 02-19 Returns a new Array Iterator object that contains the keys (indices) for each index in the array `keys()`
-- [ ] 02-20 Returns a new Array Iterator object that contains key/value pairs for each index in the array `entries()` https://github.com/roberto-butti/some-drops-of-javascript/issues/72
+- [x] 02-20 Returns a new Array Iterator object that contains key/value pairs for each index in the array `entries()`
 - [x] 02-21 returns the last index of the element in the array that satisfies the provided testing function `findLastIndex()`
 - [x] 02-22 returns the last element in the array that satisfies the provided testing function `findLast()`
 - [x] 02-23 Shallow copies part of an array to another location in the same array `copyWithin()`
-- [ ] 02-25 returns a new Array Iterator object that contains the values for each index in the array `values()`  https://github.com/roberto-butti/some-drops-of-javascript/issues/70
+- [x] 02-25 returns a new Array Iterator object that contains the values for each index in the array `values()`
+- [x] 02-26 Sorts the elements of an array in place `sort()`
+- [x] 02-27 Reverses the order of elements in an array in place `reverse()`
+- [x] 02-28 Adding and removing elements from the end of an array `push()` and `pop()`
+- [x] 02-29 Adding and removing elements from the beginning of an array `shift()` and `unshift()`
 
 - [x] 03-00 **Variables, constants, Object**
 - [x] 03-01 Get variable type: `typeof`
